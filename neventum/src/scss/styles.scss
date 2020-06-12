@@ -1,0 +1,130 @@
+// Overrides
+
+$theme-colors: (
+  "primary": #6b6b6b,
+  "dark": #252525,
+);
+
+$breadcrumb-divider: ">>";
+$list-group-border-color: none;
+
+//custom check
+$custom-control-indicator-checked-color: black;
+$custom-control-indicator-checked-bg: white;
+
+$custom-control-indicator-size: 1rem;
+$custom-control-indicator-border-width: 0.12rem;
+
+$custom-control-indicator-checked-border-color: black;
+$custom-control-indicator-focus-box-shadow: none;
+$custom-checkbox-indicator-border-radius: 0.12rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: #f9fafc;
+  font-family: "Circular Std Book";
+}
+
+.input-search {
+  width: 192px;
+  height: 26px;
+  border: 1px solid #6d7278;
+  background-color: #ffffff;
+
+  color: #898989;
+  font-family: "Circular Std Book";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.08px;
+}
+
+.breadcrumb {
+  color: #6b6b6b;
+  font-family: "Circular Std Book";
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.header {
+  .nav-link {
+    opacity: 1;
+    color: #6b6b6b;
+    font-family: "Circular Std Medium";
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+
+    &.active {
+      opacity: 1;
+      color: #000000;
+      border-bottom: 4px solid #000;
+    }
+  }
+}
+
+.nav-link {
+  opacity: 0.5;
+  color: #6b6b6b;
+  font-family: "Circular Std Medium";
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+
+  &.active {
+    opacity: 1;
+    color: #000000;
+    border-bottom: 4px solid #000;
+  }
+}
+
+.footer {
+  opacity: 0.77;
+  color: #6b6b6b;
+  font-family: "Circular Std Book";
+  font-weight: 300;
+
+  background-color: blue;
+
+  & img {
+    opacity: 0.5;
+    color: red;
+  }
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(240, 239, 239, 0.5);
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+}
+
+.custom-button {
+  min-width: 127px;
+  border-radius: 20px;
+  border: 1px solid black;
+
+  margin-right: 16px;
+
+  font-size: 13px;
+}
+
+.bell {
+  display: block;
+  position: relative;
+
+  & .bell-icon {
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+
+    font-size: 10px;
+
+    padding: 3px;
+
+    border: 1px solid #50e3c2;
+    box-shadow: 0 1px 3px rgba(56, 54, 54, 0.14);
+    background-color: #252525;
+  }
+}
