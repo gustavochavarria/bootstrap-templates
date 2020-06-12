@@ -27,16 +27,33 @@ body {
 }
 
 .input-search {
-  width: 192px;
-  height: 26px;
-  border: 1px solid #6d7278;
-  background-color: #ffffff;
+  display: flex;
+  position: relative;
 
-  color: #898989;
-  font-family: "Circular Std Book";
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 0.08px;
+  & input {
+    width: 192px;
+    height: 26px;
+    border: 1px solid #6d7278;
+    background-color: #ffffff;
+
+    padding-left: 25px;
+
+    color: #898989;
+    font-family: "Circular Std Book";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.08px;
+  }
+
+  & i {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+
+    color: #6d6d6d;
+
+    z-index: 1;
+  }
 }
 
 .breadcrumb {
