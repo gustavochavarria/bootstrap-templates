@@ -1,0 +1,20 @@
+{
+  "name": "neventum-test",
+  "version": "0.0.1",
+  "main": "src/index.html",
+  "author": "Gustavo Chavarria",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp style && gulp watch"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
